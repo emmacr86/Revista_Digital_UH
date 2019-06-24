@@ -1,0 +1,193 @@
+﻿html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+	 font-size: 40px;
+}
+
+h2{
+	font-size: 40px;
+	text-align:center;
+}
+
+h4{
+	font-size: 40px;
+	text-align:center;
+}
+
+h5{
+	text-align:right;
+}
+
+h6.tituloImagen{
+	text-align:left;
+	font-style: italic;
+}
+
+h6{
+	text-align:left;
+}
+
+h6.copyright{
+	text-align:center;
+}
+
+img.detalle {
+	width:150px;
+	height:100px;
+	margin: auto;	
+}
+
+img.titulo {
+	width:100%;
+	height:200px;
+}
+
+.titulo {
+	font-style: italic;
+    position: relative;
+    text-align: center;
+    color: white;
+	width:100%;
+	border-style: outset;
+	
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.botonesMenu {
+	font-style: italic;
+    position: relative;
+    text-align: center;
+    color: white;
+	width:100%;
+}
+
+footer {
+	width:100%;
+	background-color:black;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	height:125px;
+	padding:10px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	height:280px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+input[type=text]
+{ 	color: black;
+	width: 100%;
+	}
+	
+ul#tabs li.telefono {
+	content: '';   
+	padding-left: 25px;
+    height: 20px;   
+    width: 200px;    
+    background-size: 20px;   
+    background-image: url('Telefono.ico'); 
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+    background-position: left left;
+    text-align: left;
+	}
+
+ul#tabs li.facebook {
+	content: '';   
+    padding-left: 25px;
+    height: 20px;   
+    width: 200px;    
+    background-size: 20px;   
+    background-image: url('Facebook.ico'); 
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+    background-position: left left;
+	text-align: left;
+	}
+	
+ul#tabs li.twitter {
+	content: '';   
+    padding-left: 25px;
+    height: 20px;   
+    width: 200px;    
+    background-size: 20px;   
+    background-image: url('Twitter.ico'); 
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+    background-position:left left;
+    text-align: left;
+	} 
+	
+a.noticias{
+	padding-top: 140px;
+	text-align: center;	
+	font-size: 30px;
+}
+
+a.noticiaCuadro{
+	text-align: left;	
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a.link{
+	text-align:right;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p.noticiaPrincipal{
+	padding-top: 20px;
+	padding-left: 2px; 
+	text-align: left bottom;	
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+div.espacio{
+	height: 200px; 
+}
+
+button{
+	width:100%; 
+}
+
+div.botonesMenu{
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+
+p{
+	font-size: 18px;	
+	padding-left: 2px; 
+}
+
+
